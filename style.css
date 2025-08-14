@@ -1,0 +1,850 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    text-decoration: none;
+}
+
+.menu{
+    background-color: #D9D9D9;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fragrans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fragransdiv2{
+    
+}
+
+.input1{
+    width: 570px;
+    height: 45px;
+    border-radius: 25px;
+    border: 0;
+    background-color: #ece6f0;
+    outline: none;
+    padding-left: 45px;
+}
+.divsvg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.svginput{
+    fill: #49454f;
+    width: 20px;
+}
+
+#svghamburguer{
+    position: relative;
+    left: 30px;
+    
+}
+
+#svglupa{
+    position: relative;
+    right: 30px;
+}
+
+.entrar{
+    width: 90px;
+    height: 35px;
+    background-color: #767ef2;
+    border: 0;
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.svgicon{
+    fill: white;
+    width: 15px;
+}
+
+.btnquadrado{
+    width: 45px;
+    height: 45px;
+    background-color: #767ef2;
+    border-radius: 50%;
+    fill: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svgquadrado{
+  width: 38px;
+}
+
+@media (max-width: 790px){
+
+    .fragransdiv2{
+        display: none;
+    }
+
+    .input1{
+        width: 170px;
+    }
+
+    .fundorosa5{
+        display: none;
+    }
+}
+
+@media (max-width: 550px){
+
+    .fragransdiv2{
+        display: none;
+    }
+
+    .input1{
+        width: 150px;
+    }
+
+    
+}
+
+@media (max-width: 1085px){
+
+    .fragransdiv2{
+        display: none;
+    }
+
+    .input1{
+        width: 200px;
+    }
+}
+
+.florrosa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txtflorrosa{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.txtflorrosa2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+@media (max-width: 1216px){
+
+    .txtflorrosa{
+        font-size: 35px;
+    }
+
+    .txtflorrosa2{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 800px){
+
+    .txtflorrosa{
+        font-size: 22px;
+    }
+
+    .txtflorrosa2{
+        font-size: 12px;
+    }
+
+    .section2{
+        flex-direction: column;
+    }
+
+    .perfumerosa{
+        width: 300px;
+    }
+
+    .pessoa{
+        width: 300px;
+    }
+
+    .ladoalado{
+        flex-direction: column;
+    }
+
+    .fundorosa5{
+      flex-direction: column;
+     
+    }
+
+    .fundorosa1{
+        flex-direction: column;
+    }
+
+    
+
+
+   
+
+
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.pessoa{
+    border: solid 5px #e779bc;
+    border-radius: 20px;
+}
+
+.perfumerosa{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #000000;
+}
+
+.svgperfumerosa{
+    fill: #e779bc;
+    width: 45px;
+    position: relative;
+    top: 45px;
+    left: 120px;
+}
+
+.txtcadence{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.section3{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.ladoalado{
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    font-size: 20px;
+    
+}
+
+.section4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.txt1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1pagina2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    flex-direction: column;
+}
+
+.fragranspagina2{
+    font-size: 50px;
+}
+
+.barrarosa{
+    width: 200px;
+    height: 15px;
+    background-color: #e779bc;
+}
+
+.paddinvidros{
+    padding-top: 50px;
+}
+
+.alinharcores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    gap: 50px;
+}
+
+.barrarozul{
+    width: 200px;
+    height: 15px;
+    background-color: #767ef2;
+}
+
+.section2pagina2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    flex-direction: column;
+}
+
+.conheçanos{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+}
+
+.txt1pagina2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.bannerperfume{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    
+}
+
+.section1pagina3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.produtos{
+    font-size: 60px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.barrarosa2{
+    width: 290px;
+    height: 10px;
+    background-color: #e779bc;
+}
+
+.divperfume{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+@media (max-width: 800px){ 
+    .divperfume{
+        flex-direction: column;
+    }
+
+}
+
+
+.fundorosa2{
+    width: 100%;
+    background-color: #f076bc;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    
+ 
+}
+
+.fundorosa3{
+    width: 100%;
+    background-color: #e779bc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadence{
+    font-size: 50px;
+
+}
+
+.divcadence{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+
+
+.cadencefrascode100ml{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.cadencefrascode100ml2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -40px;
+
+}
+
+.valor{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.valor1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.adicionarcarrinho{
+    width: 240px;
+    height: 50px;
+    background-color: #e779bc;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    border: 0;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.txt1{
+    font-size: 10px;
+
+}
+
+
+.fundorosa1{
+    width: 100%;
+    background-color: #767ef2;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+ 
+}
+
+.fundorosa5{
+    width: 100%;
+    background-color: #e779bc;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+ 
+}
+
+.fundorosa{
+    width: 100%;
+    height: 15vh;
+    background-color: #767ef2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadence{
+    font-size: 50px;
+
+}
+
+.divcadence{
+    height: 300px;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    flex-direction: column;
+}
+
+
+.cadencefrascode100ml{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cadencefrascode100ml2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -40px;
+
+}
+
+.valor{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.valor1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.adicionarcarrinho{
+    width: 240px;
+    height: 50px;
+    background-color: #767ef2;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    border: 0;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.adicionarcarrinho2{
+    width: 240px;
+    height: 50px;
+    background-color: #e779bc;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    border: 0;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+
+.txt1{
+    font-size: 10px;
+
+}
+
+.Contato{
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+.section1contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 150px;
+}
+
+.divrosa1{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divrosa{
+    width: 90%;
+    height: 45vh;
+    background-color: #e779bc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.divazul{
+    width: 400px;
+    height: 400px;
+    background-color: #767ef2;
+    border-radius: 10px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.span1{
+    font-size: 30px;
+    
+}
+.inputazul{
+   width: 200px;
+   height: 25px;
+   border-radius: 20px;
+   border: none;
+}
+
+.nome{
+    position: relative;
+    right: 60px;
+    top: 18px;
+}
+
+.email{
+    position: relative;
+    right: 60px;
+    top: 18px;
+}
+
+.escrevaoqdeseja{
+    position: relative;
+    right: 10px;
+    top: 18px;
+}
+
+.butaoenviar{
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    border-radius: 20px;
+}
+
+
+@media (max-width: 800px){
+
+   .divrosa{
+    background-color: #767ef2;
+    width: 100px;
+   }
+   .divazul{
+    position: absolute;
+   }
+
+}
+
+.cadastro{
+    width: 500px;
+    height: 630px;
+    background-color: #e779bc;
+    border-radius: 30px;
+    
+}
+.sectioncadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.entrar2{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.svgicon2{
+    fill: rgb(255, 255, 255);
+    width: 210px;
+    position: relative;
+    top: 70px;
+    left: 145px;
+    
+}
+
+
+.divinput{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    top: 90px;
+    
+}
+
+.inputentrar{
+    width: 300px;
+    height: 30px;
+    border: 0;
+    border-radius: 20px;
+     outline: none;
+     padding: 6px;
+}
+
+.nomeentrar{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    position: relative;
+    right: 120px;
+    top: -20px;
+}
+
+.senha{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    position: relative;
+    right: 90px;
+    top: -20px;
+}
+
+.diventrar{
+   width: 150px; 
+   height: 40px;
+   background-color: #f7c1ec;
+   position: relative;
+   top: -30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(0, 0, 0);
+}
+
+.registrase{
+    color: #9b4d79;
+    position: relative;
+    top: -45px;
+}
+
+
+.barraazul2{
+    width: 290px;
+    height: 10px;
+    background-color: #777ef2;
+}
+
+.cadastro2{
+    width: 500px;
+    height: 630px;
+    background-color: #777ef2;
+    border-radius: 30px;
+    
+}
+
+.diventrar2{
+   width: 150px; 
+   height: 40px;
+   background-color: #c2c6f7;
+   position: relative;
+   top: -30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(0, 0, 0);
+}
+
+.registrase2{
+    color: #5055a3;
+    position: relative;
+    top: -45px;
+}
+
+.carrinho{
+    font-size: 25px;
+    
+}
+
+.divcarrinho{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -30px;
+}
+
+.divcarrinho2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.barrarosagigante{
+    width: 60%;
+    height: 12vh;
+    background-color: #e779bc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 40px;
+}
+
+.barrarosagigante1{
+    width: 60%;
+    height: 12vh;
+    background-color: #e779bc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 40px;
+}
+
+.btncomprar{
+    width: 350px;
+    height: 55px;
+    color: white;
+    background-color: #767ef2;
+    border-radius: 20px;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+
+
+
+
+
